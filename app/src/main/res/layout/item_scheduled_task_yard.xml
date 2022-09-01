@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_margin="16dp"
+    app:cardCornerRadius="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--    Fecha cita    -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="@dimen/common_8"
+                android:paddingVertical="@dimen/common_8"
+                android:background="@color/blue_700_transparent"
+                tools:ignore="NestedWeights">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_date_service"
+                    android:textSize="@dimen/text_16"
+                    android:textColor="@color/md_blue_grey_50"
+                    android:fontFamily="@font/nunito_semi_bold"
+                    android:ellipsize="end"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:paddingHorizontal="@dimen/common_8"
+                android:paddingVertical="@dimen/common_8">
+
+                <TextView
+                    android:id="@+id/tv_date"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="2022-07-20"
+                    android:textSize="@dimen/text_16"
+                    android:layout_gravity="center"
+                    android:ellipsize="end"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/md_blue_300"/>
+
+        <!--    Servicio    -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="@dimen/common_8"
+                android:paddingVertical="@dimen/common_8"
+                android:background="@color/blue_700_transparent"
+                tools:ignore="NestedWeights">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_service"
+                    android:textSize="@dimen/text_16"
+                    android:textColor="@color/md_blue_grey_50"
+                    android:fontFamily="@font/nunito_semi_bold"
+                    android:ellipsize="end"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:paddingHorizontal="@dimen/common_8"
+                android:paddingVertical="@dimen/common_8">
+
+                <TextView
+                    android:id="@+id/tv_service"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Lavado"
+                    android:ellipsize="end"
+                    android:textSize="@dimen/text_16"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/md_blue_300"/>
+
+        <!--    Empleado    -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="@dimen/common_8"
+                android:paddingVertical="@dimen/common_8"
+                android:background="@color/blue_700_transparent"
+                tools:ignore="NestedWeights">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_employee_appointment"
+                    android:textSize="@dimen/text_16"
+                    android:textColor="@color/md_blue_grey_50"
+                    android:fontFamily="@font/nunito_semi_bold"
+                    android:ellipsize="end"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:paddingHorizontal="@dimen/common_8"
+                android:paddingVertical="@dimen/common_8">
+
+                <TextView
+                    android:id="@+id/tv_employee"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="Luis G"
+                    android:textSize="@dimen/text_16"
+                    android:layout_gravity="center"
+                    android:ellipsize="end"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/md_blue_300"/>
+
+        <!--    Precio    -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="@dimen/common_8"
+                android:paddingVertical="@dimen/common_8"
+                android:background="@color/blue_700_transparent"
+                tools:ignore="NestedWeights">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_price"
+                    android:textSize="@dimen/text_16"
+                    android:textColor="@color/md_blue_grey_50"
+                    android:fontFamily="@font/nunito_semi_bold"
+                    android:ellipsize="end"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:paddingHorizontal="@dimen/common_8"
+                android:paddingVertical="@dimen/common_8">
+
+                <TextView
+                    android:id="@+id/tv_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="20.000"
+                    android:textSize="@dimen/text_16"
+                    android:layout_gravity="center"
+                    android:ellipsize="end"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/md_blue_300"/>
+
+        <!--    Placa    -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="@dimen/common_8"
+                android:paddingVertical="@dimen/common_8"
+                android:background="@color/blue_700_transparent"
+                tools:ignore="NestedWeights">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_plate_vehicle"
+                    android:textSize="@dimen/text_16"
+                    android:textColor="@color/md_blue_grey_50"
+                    android:fontFamily="@font/nunito_semi_bold"
+                    android:ellipsize="end"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:paddingHorizontal="@dimen/common_8"
+                android:paddingVertical="@dimen/common_8">
+
+                <TextView
+                    android:id="@+id/tv_plate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="adc456"
+                    android:ellipsize="end"
+                    android:textSize="@dimen/text_16"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/md_blue_300"/>
+
+        <!--    Vehículo    -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:paddingHorizontal="@dimen/common_8"
+                android:paddingVertical="@dimen/common_8"
+                android:background="@color/blue_700_transparent"
+                tools:ignore="NestedWeights">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/label_vehicle"
+                    android:textSize="@dimen/text_16"
+                    android:textColor="@color/md_blue_grey_50"
+                    android:fontFamily="@font/nunito_semi_bold"
+                    android:ellipsize="end"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:paddingHorizontal="@dimen/common_8"
+                android:paddingVertical="@dimen/common_8">
+
+                <TextView
+                    android:id="@+id/tv_vehicle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="mark and model"
+                    android:ellipsize="end"
+                    android:textSize="@dimen/text_16"
+                    android:layout_gravity="center" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

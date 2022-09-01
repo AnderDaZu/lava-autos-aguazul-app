@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/check_vehicles"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".yard.UpdateTaskActivity"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/step_tasks"
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_height="380dp"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_12"
+                android:fontFamily="@font/nunito_semi_bold"
+                android:gravity="center"
+                android:textSize="@dimen/text_20"
+                android:text="@string/label_services_to_finish"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
+                android:layout_marginTop="@dimen/common_12"
+                android:orientation="vertical">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:id="@+id/radio_button_parent_tasks"
+                        android:paddingHorizontal="@dimen/common_12">
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+                <Button
+                    android:id="@+id/btn_update_task"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_semi_bold"
+                    android:textColor="@color/md_blue_grey_50"
+                    android:backgroundTint="@color/blue_500"
+                    android:layout_marginTop="@dimen/common_8"
+                    android:layout_marginHorizontal="@dimen/common_8"
+                    android:text="@string/btn_continue"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/message_update_task"
+        android:textSize="@dimen/text_16"
+        android:layout_marginTop="@dimen/common_12"
+        android:layout_marginHorizontal="@dimen/common_16"/>
+
+</LinearLayout>

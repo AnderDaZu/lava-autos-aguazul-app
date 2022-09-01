@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/check_vehicles"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".user.CreateAppointmentUserActivity"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/step_vehicles"
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_height="320dp"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_12"
+                android:fontFamily="@font/nunito_semi_bold"
+                android:gravity="center"
+                android:textSize="@dimen/text_20"
+                android:text="@string/label_select_vehicle"
+                tools:text="Elegir Vehículo"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:layout_marginTop="@dimen/common_12"
+                android:orientation="vertical">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp">
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="190dp"-->
+<!--                    android:orientation="vertical">-->
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:id="@+id/radio_button_parent_vehicles"
+                        android:paddingHorizontal="@dimen/common_12">
+
+<!--                        <androidx.recyclerview.widget.RecyclerView-->
+<!--                            android:id="@+id/rv_check_vehicles"-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="match_parent"-->
+<!--                            tools:listitem="@layout/item_check_vehicle"/>-->
+
+<!--                        <RadioButton-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            tools:text="abc123 Mazda 2"-->
+<!--                            android:textSize="@dimen/text_20"-->
+<!--                            android:paddingStart="@dimen/common_16"-->
+<!--                            android:ellipsize="end"-->
+<!--                            tools:ignore="RtlSymmetry" />-->
+
+                    </LinearLayout>
+
+<!--                </LinearLayout>-->
+                </ScrollView>
+
+                <Button
+                    android:id="@+id/btn_vehicle_continue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_semi_bold"
+                    android:textColor="@color/md_blue_grey_50"
+                    android:backgroundTint="@color/blue_500"
+                    android:layout_marginTop="@dimen/common_8"
+                    android:layout_marginHorizontal="@dimen/common_8"
+                    android:text="@string/btn_continue"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/step_services"
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_height="440dp"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_12"
+                android:fontFamily="@font/nunito_semi_bold"
+                android:gravity="center"
+                android:textSize="@dimen/text_20"
+                android:text="@string/label_select_service"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:layout_marginTop="@dimen/common_12"
+                android:orientation="vertical">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:id="@+id/radio_button_parent_services"
+                        android:paddingHorizontal="@dimen/common_12">
+
+                    </LinearLayout>
+
+                    <!--                </LinearLayout>-->
+                </ScrollView>
+
+                <Button
+                    android:id="@+id/btn_service_continue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_semi_bold"
+                    android:textColor="@color/md_blue_grey_50"
+                    android:backgroundTint="@color/blue_500"
+                    android:layout_marginTop="@dimen/common_8"
+                    android:layout_marginHorizontal="@dimen/common_8"
+                    android:text="@string/btn_continue"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_16"
+                android:text="@string/label_message_service"
+                android:paddingBottom="@dimen/common_8"
+                android:paddingHorizontal="@dimen/common_12"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/step_spaces"
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_height="440dp"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_12"
+                android:fontFamily="@font/nunito_semi_bold"
+                android:gravity="center"
+                android:textSize="@dimen/text_20"
+                android:text="@string/label_select_space"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:layout_marginTop="@dimen/common_12"
+                android:orientation="vertical">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:id="@+id/radio_button_parent_spaces"
+                        android:paddingHorizontal="@dimen/common_12">
+
+<!--                        <RadioButton-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            tools:text="abc123 Mazda 2"-->
+<!--                            android:textSize="@dimen/text_20"-->
+<!--                            android:paddingStart="@dimen/common_16"-->
+<!--                            android:ellipsize="end"-->
+<!--                            tools:ignore="RtlSymmetry" />-->
+
+                    </LinearLayout>
+
+                    <!--                </LinearLayout>-->
+                </ScrollView>
+
+                <Button
+                    android:id="@+id/btn_space_continue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_semi_bold"
+                    android:textColor="@color/md_blue_grey_50"
+                    android:backgroundTint="@color/blue_500"
+                    android:layout_marginTop="@dimen/common_8"
+                    android:layout_marginHorizontal="@dimen/common_8"
+                    android:text="@string/btn_continue"/>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_16"
+                android:text="@string/label_message_service"
+                android:paddingBottom="@dimen/common_8"
+                android:paddingHorizontal="@dimen/common_12"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/step_employees"
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_height="440dp"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_12"
+                android:fontFamily="@font/nunito_semi_bold"
+                android:gravity="center"
+                android:textSize="@dimen/text_20"
+                android:text="@string/label_select_employee"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:layout_marginTop="@dimen/common_12"
+                android:orientation="vertical">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:id="@+id/radio_button_parent_employees"
+                        android:paddingHorizontal="@dimen/common_12">
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+                <Button
+                    android:id="@+id/btn_employee_continue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_semi_bold"
+                    android:textColor="@color/md_blue_grey_50"
+                    android:backgroundTint="@color/blue_500"
+                    android:layout_marginTop="@dimen/common_8"
+                    android:layout_marginHorizontal="@dimen/common_8"
+                    android:text="@string/btn_continue"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/text_16"
+                android:text="@string/label_message_service"
+                android:paddingBottom="@dimen/common_8"
+                android:paddingHorizontal="@dimen/common_12"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/step_final"
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_height="500dp"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_12"
+                android:fontFamily="@font/nunito_semi_bold"
+                android:gravity="center"
+                android:textSize="@dimen/text_20"
+                android:text="@string/label_confirm_information"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:background="@color/blue_500"
+                android:layout_marginVertical="@dimen/common_8"
+                android:layout_marginHorizontal="@dimen/common_12"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="420dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="@dimen/common_12">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_car_selected"
+                        android:textSize="@dimen/text_16"
+                        android:fontFamily="@font/nunito_semi_bold"
+                        android:layout_marginBottom="@dimen/common_4"/>
+
+                    <TextView
+                        android:id="@+id/tv_vehicle_selected"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_20"
+                        android:ellipsize="end"
+                        tools:text="vehículo seleccionado"
+                        android:textColor="@color/md_blue_grey_900"
+                        android:layout_marginBottom="@dimen/common_12"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_service_selected"
+                        android:textSize="@dimen/text_16"
+                        android:fontFamily="@font/nunito_semi_bold"
+                        android:layout_marginBottom="@dimen/common_4"/>
+
+                    <TextView
+                        android:id="@+id/tv_service_selected"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_20"
+                        android:ellipsize="end"
+                        tools:text="servicio seleccionado"
+                        android:textColor="@color/md_blue_grey_900"
+                        android:layout_marginBottom="@dimen/common_12"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_space_selected"
+                        android:textSize="@dimen/text_16"
+                        android:fontFamily="@font/nunito_semi_bold"
+                        android:layout_marginBottom="@dimen/common_4"/>
+
+                    <TextView
+                        android:id="@+id/tv_space_selected"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_20"
+                        android:ellipsize="end"
+                        tools:text="espacio seleccionado"
+                        android:textColor="@color/md_blue_grey_900"
+                        android:layout_marginBottom="@dimen/common_12"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/label_employee_selected"
+                        android:textSize="@dimen/text_16"
+                        android:fontFamily="@font/nunito_semi_bold"
+                        android:layout_marginBottom="@dimen/common_4"/>
+
+                    <TextView
+                        android:id="@+id/tv_employee_selected"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/text_20"
+                        android:ellipsize="end"
+                        tools:text="empleado seleccionado"
+                        android:textColor="@color/md_blue_grey_900"
+                        android:layout_marginBottom="@dimen/common_12"/>
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_final_continue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/nunito_semi_bold"
+                    android:textColor="@color/md_blue_grey_50"
+                    android:backgroundTint="@color/blue_500"
+                    android:layout_marginTop="@dimen/common_8"
+                    android:layout_marginHorizontal="@dimen/common_8"
+                    android:text="@string/btn_create_appointment"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

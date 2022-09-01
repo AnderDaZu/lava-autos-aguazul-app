@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="@color/white_clear"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_welcome"
+        android:background="@color/md_blue_grey_50"
+        android:textColor="@color/blue_500"
+        android:textSize="@dimen/text_32"
+        android:fontFamily="@font/nunito_extra_bold"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/common_16"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/md_blue_grey_500"
+        android:layout_marginHorizontal="@dimen/common_16"/>
+
+    <!--  btn_services  -->
+    <Button
+        android:id="@+id/btn_services"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/common_16"
+        android:text="@string/label_services"
+        android:textColor="@color/white_clear"
+        android:textSize="@dimen/text_16"
+        android:backgroundTint="@color/blue_500"
+        android:drawableLeft="@drawable/ic_services"
+        android:layout_marginTop="@dimen/common_16"
+        android:layout_marginBottom="@dimen/common_16"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="@dimen/common_8"/>
+
+    <!--  btn_create_appointment  -->
+    <Button
+        android:id="@+id/btn_create_appointment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/common_16"
+        android:text="@string/label_create_appointment"
+        android:textColor="@color/white_clear"
+        android:textSize="@dimen/text_16"
+        android:backgroundTint="@color/blue_500"
+        android:layout_marginBottom="@dimen/common_16"
+        android:drawableLeft="@drawable/ic_add"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="@dimen/common_8"/>
+
+    <!--  btn_list_appointments  -->
+    <Button
+        android:id="@+id/btn_list_appointments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/common_16"
+        android:text="@string/label_list_appointments"
+        android:textColor="@color/white_clear"
+        android:textSize="@dimen/text_16"
+        android:backgroundTint="@color/blue_500"
+        android:drawableLeft="@drawable/ic_schedule"
+        android:layout_marginBottom="@dimen/common_16"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="@dimen/common_8"/>
+
+    <!--  btn_list_vehicles  -->
+    <Button
+        android:id="@+id/btn_list_vehicles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/common_16"
+        android:text="@string/label_list_vehicles"
+        android:textColor="@color/white_clear"
+        android:backgroundTint="@color/blue_500"
+        android:textSize="@dimen/text_16"
+        android:drawableLeft="@drawable/ic_car"
+        android:layout_marginBottom="@dimen/common_16"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="@dimen/common_8"/>
+
+    <!--  btn_create_vehicle  -->
+    <Button
+        android:id="@+id/btn_create_vehicle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/common_16"
+        android:text="@string/label_create_vehicle"
+        android:textColor="@color/white_clear"
+        android:textSize="@dimen/text_16"
+        android:backgroundTint="@color/blue_500"
+        android:drawableLeft="@drawable/ic_add_car"
+        android:layout_marginBottom="@dimen/common_16"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="@dimen/common_8"/>
+
+    <!--  ====================================================  -->
+    <!--  Jefe de patio  -->
+
+    <!--  btn_register_task  -->
+    <Button
+        android:id="@+id/btn_register_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/common_16"
+        android:text="@string/label_start_task"
+        android:textColor="@color/white_clear"
+        android:textSize="@dimen/text_16"
+        android:backgroundTint="@color/blue_500"
+        android:drawableLeft="@drawable/ic_start"
+        android:layout_marginBottom="@dimen/common_16"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="@dimen/common_8"/>
+
+    <!--  btn_finish_task  -->
+    <Button
+        android:id="@+id/btn_finish_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/common_16"
+        android:text="@string/label_finish_task"
+        android:textColor="@color/white_clear"
+        android:textSize="@dimen/text_16"
+        android:backgroundTint="@color/blue_500"
+        android:drawableLeft="@drawable/ic_end"
+        android:layout_marginBottom="@dimen/common_16"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="@dimen/common_8"/>
+
+    <!--  btn_create_task  -->
+    <Button
+        android:id="@+id/btn_create_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/common_16"
+        android:text="Registrar servicio"
+        android:textColor="@color/white_clear"
+        android:textSize="@dimen/text_16"
+        android:backgroundTint="@color/blue_500"
+        android:drawableLeft="@drawable/ic_add_task"
+        android:layout_marginBottom="@dimen/common_16"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="@dimen/common_8"/>
+
+    <!--  btn_list_scheduled_tasks_yard  -->
+    <Button
+        android:id="@+id/btn_list_scheduled_tasks_yard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/common_16"
+        android:text="@string/label_list_tasks"
+        android:textColor="@color/white_clear"
+        android:textSize="@dimen/text_16"
+        android:backgroundTint="@color/blue_500"
+        android:drawableLeft="@drawable/ic_schedule"
+        android:layout_marginBottom="@dimen/common_16"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="@dimen/common_8"/>
+
+    <!--  btn_list_unscheduled_tasts_yard  -->
+    <Button
+        android:id="@+id/btn_list_unscheduled_tasks_yard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/common_16"
+        android:text="@string/label_list_tasks2"
+        android:textColor="@color/white_clear"
+        android:textSize="@dimen/text_16"
+        android:backgroundTint="@color/blue_500"
+        android:drawableLeft="@drawable/ic_unscheduled"
+        android:layout_marginBottom="@dimen/common_16"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="@dimen/common_8"/>
+
+    <!--  Fin Jefe de patio  -->
+    <!--  ====================================================  -->
+
+    <!--  ====================================================  -->
+    <!--  Empleado -->
+
+    <!--  btn_list_appointment_employee  -->
+    <Button
+        android:id="@+id/btn_list_appointments_employee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/common_16"
+        android:text="@string/label_list_tasks"
+        android:textColor="@color/white_clear"
+        android:textSize="@dimen/text_16"
+        android:backgroundTint="@color/blue_500"
+        android:drawableLeft="@drawable/ic_add_task"
+        android:layout_marginTop="@dimen/common_16"
+        android:layout_marginBottom="@dimen/common_16"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="@dimen/common_8"/>
+
+    <!--  btn_list_scheduled_tasks_employee  -->
+    <Button
+        android:id="@+id/btn_list_scheduled_tasks_employee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/common_16"
+        android:text="@string/label_scheduled_task"
+        android:textColor="@color/white_clear"
+        android:textSize="@dimen/text_16"
+        android:backgroundTint="@color/blue_500"
+        android:drawableLeft="@drawable/ic_schedule"
+        android:layout_marginBottom="@dimen/common_16"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="@dimen/common_8"/>
+
+    <!--  btn_list_unscheduled_tasks_employee  -->
+    <Button
+        android:id="@+id/btn_list_unscheduled_tasks_employee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/common_16"
+        android:text="@string/label_unscheduled_tasks"
+        android:textColor="@color/white_clear"
+        android:textSize="@dimen/text_16"
+        android:backgroundTint="@color/blue_500"
+        android:drawableLeft="@drawable/ic_unscheduled"
+        android:layout_marginBottom="@dimen/common_16"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="@dimen/common_8"/>
+
+    <!--  Fin empleado  -->
+    <!--  ====================================================  -->
+
+    <!--  btn_account  -->
+
+    <!--  btn_logout  -->
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/common_16"
+        android:text="@string/label_logout"
+        android:textColor="@color/white_clear"
+        android:textSize="@dimen/text_16"
+        android:backgroundTint="@color/blue_500"
+        android:drawableLeft="@drawable/ic_logout"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="@dimen/common_8"/>
+
+</LinearLayout>

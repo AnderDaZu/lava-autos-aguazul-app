@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".RegisterActivity"
+    android:background="@color/md_blue_100"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue_500">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_register"
+
+            android:textSize="@dimen/text_28"
+            android:textColor="@color/white_clear"
+            android:fontFamily="@font/nunito_bold"
+            android:layout_marginStart="@dimen/common_24"
+            android:layout_marginTop="@dimen/common_24"
+            android:layout_marginBottom="@dimen/common_24"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/md_grey_500"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="clear_text"
+            app:counterMaxLength="@integer/max_length_username"
+            app:counterEnabled="true"
+            app:helperText="@string/required"
+            app:counterTextColor="@color/md_blue_50"
+            app:helperTextTextColor="@color/md_blue_50"
+            style="@style/Widget.MaterialComponents.TabLayout.Colored"
+            android:layout_marginBottom="@dimen/common_16"
+            android:layout_marginHorizontal="@dimen/common_16">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_username"
+                android:padding="@dimen/common_12"
+                android:maxLength="@integer/max_length_username"
+                android:inputType="textPersonName"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="clear_text"
+            app:counterMaxLength="@integer/max_length_username"
+            app:counterEnabled="true"
+            app:helperText="@string/required"
+            app:counterTextColor="@color/md_blue_50"
+            app:helperTextTextColor="@color/md_blue_50"
+            style="@style/Widget.MaterialComponents.TabLayout.Colored"
+            android:layout_marginBottom="@dimen/common_16"
+            android:layout_marginHorizontal="@dimen/common_16">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_user_name"
+                android:padding="@dimen/common_12"
+                android:maxLength="@integer/max_length_username"
+                android:inputType="textPersonName"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="clear_text"
+            app:helperText="@string/required"
+            app:counterMaxLength="@integer/max_length_username"
+            app:counterEnabled="true"
+            app:counterTextColor="@color/md_blue_50"
+            app:helperTextTextColor="@color/md_blue_50"
+            style="@style/Widget.MaterialComponents.TabLayout.Colored"
+            android:layout_marginBottom="@dimen/common_16"
+            android:layout_marginHorizontal="@dimen/common_16">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_last_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/common_12"
+                android:hint="@string/hint_user_last_name"
+                android:maxLength="@integer/max_length_username"
+                android:inputType="textPersonName"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="clear_text"
+            app:counterMaxLength="@integer/max_length_email"
+            app:counterEnabled="true"
+            app:counterTextColor="@color/md_blue_50"
+            app:helperTextTextColor="@color/md_blue_50"
+            app:helperText="@string/required"
+            style="@style/Widget.MaterialComponents.TabLayout.Colored"
+            app:startIconDrawable="@drawable/ic_email"
+            android:layout_marginBottom="@dimen/common_16"
+            android:layout_marginHorizontal="@dimen/common_16">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_email"
+                android:padding="@dimen/common_12"
+                android:maxLength="@integer/max_length_email"
+                android:inputType="textEmailAddress"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="clear_text"
+            app:counterMaxLength="@integer/max_length_email"
+            app:counterEnabled="true"
+            app:counterTextColor="@color/md_blue_50"
+            app:helperTextTextColor="@color/md_blue_50"
+            app:helperText="@string/required"
+            style="@style/Widget.MaterialComponents.TabLayout.Colored"
+            app:startIconDrawable="@drawable/ic_key"
+            android:layout_marginBottom="@dimen/common_24"
+            android:layout_marginHorizontal="@dimen/common_16">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_password"
+                android:padding="@dimen/common_12"
+                android:maxLength="@integer/max_length_email"
+                android:inputType="textPassword"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_create_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_register"
+            android:textColor="@color/md_blue_50"
+            android:backgroundTint="@color/md_green_400"
+            android:layout_gravity="center"
+            android:paddingVertical="@dimen/common_12"
+            android:paddingHorizontal="@dimen/common_24"/>
+
+    </LinearLayout>
+
+</LinearLayout>

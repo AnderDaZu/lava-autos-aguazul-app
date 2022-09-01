@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--  Medidas para padding y margin  -->
+    <dimen name="common_4">4dp</dimen>
+    <dimen name="common_8">8dp</dimen>
+    <dimen name="common_12">12sp</dimen>
+    <dimen name="common_16">16dp</dimen>
+    <dimen name="common_20">20dp</dimen>
+    <dimen name="common_24">24dp</dimen>
+    <dimen name="common_28">28dp</dimen>
+    <dimen name="common_32">32dp</dimen>
+    <dimen name="common_36">36dp</dimen>
+
+    <!--  Medidas para textos  -->
+    <dimen name="text_8">8sp</dimen>
+    <dimen name="text_12">12sp</dimen>
+    <dimen name="text_16">16sp</dimen>
+    <dimen name="text_20">20sp</dimen>
+    <dimen name="text_24">24sp</dimen>
+    <dimen name="text_28">28sp</dimen>
+    <dimen name="text_32">32sp</dimen>
+    <dimen name="text_36">36sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+</resources>

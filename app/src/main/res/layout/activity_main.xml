@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/md_blue_100"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_app_name"
+        android:fontFamily="@font/nunito_extra_bold"
+        android:textSize="@dimen/text_32"
+        android:textColor="@color/md_blue_500"
+        android:textAllCaps="true"
+        android:lineSpacingMultiplier="0.7"
+        android:gravity="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_app_description"
+        android:fontFamily="@font/nunito_bold"
+        android:textSize="@dimen/text_20"
+        android:textColor="@color/md_grey_700"
+        android:gravity="center"
+        android:lineSpacingMultiplier="0.7"
+        android:layout_marginBottom="@dimen/common_32"/>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/common_16"
+        android:backgroundTint="@color/md_blue_A400">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:counterEnabled="true"
+                app:counterMaxLength="@integer/max_length_email"
+                app:helperText="@string/required"
+                android:hint="@string/hint_email"
+                app:endIconMode="clear_text"
+                app:startIconDrawable="@drawable/ic_email"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginHorizontal="@dimen/common_16"
+                android:layout_marginTop="@dimen/common_32">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_email"
+                    android:textColorHint="@color/md_grey_700"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:maxLength="@integer/max_length_email"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:counterEnabled="true"
+                app:counterMaxLength="@integer/max_length_email"
+                app:helperText="@string/required"
+                android:hint="@string/hint_password"
+                app:endIconMode="clear_text"
+                app:startIconDrawable="@drawable/ic_key"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginHorizontal="@dimen/common_16"
+                android:layout_marginVertical="@dimen/common_8">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/md_grey_700"
+                    android:inputType="textPassword"
+                    android:maxLength="@integer/max_length_email"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_start_session"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_start_session"
+                android:textColor="@color/md_blue_50"
+                android:textSize="@dimen/text_16"
+                android:paddingVertical="@dimen/common_8"
+                android:fontFamily="@font/nunito_extra_bold"
+                android:layout_marginHorizontal="@dimen/common_16"
+                android:layout_marginTop="@dimen/common_16"
+                android:layout_marginBottom="@dimen/common_8"/>
+
+<!--            <TextView-->
+<!--                android:id="@+id/tv_forget_password"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="@string/link_forget_password"-->
+<!--                android:fontFamily="@font/nunito_semi_bold"-->
+<!--                android:textSize="@dimen/text_16"-->
+<!--                android:textColor="@color/md_blue_700"-->
+<!--                android:paddingHorizontal="@dimen/common_8"-->
+<!--                android:layout_marginBottom="@dimen/common_16"-->
+<!--                android:layout_gravity="center"/>-->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/md_blue_grey_200"
+                android:layout_marginHorizontal="@dimen/common_16"
+                android:layout_marginBottom="@dimen/common_16"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_create_account"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_create_account"
+                android:textColor="@color/md_blue_50"
+                android:fontFamily="@font/nunito_semi_bold"
+                app:backgroundTint="@color/md_green_400"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/common_24"/>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

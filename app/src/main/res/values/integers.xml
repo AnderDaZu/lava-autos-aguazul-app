@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="max_length_username">30</integer>
+    <integer name="max_length_email">50</integer>
+    <integer name="max_length_price">7</integer>
+    <integer name="max_length_plate">6</integer>
+    <integer name="max_lines_3">3</integer>
+    <integer name="max_lines_2">2</integer>
+    <integer name="max_lines_1">1</integer>
+</resources>

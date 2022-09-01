@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">LavAutos Aguazul</string>
+
+    <string name="required">Obligatorio</string>
+
+    <string name="label_app_name_start">Lava Autos Aguazul</string>
+    <string name="label_app_description">El mejor servicio de lava autos!</string>
+    <string name="label_email">Correo</string>
+    <string name="label_register">Registrarte</string>
+    <string name="label_services">Nuestros servicios</string>
+    <string name="label_create_appointment">Reservar cita</string>
+    <string name="label_list_appointments">Citas agendadas</string>
+    <string name="label_list_tasks">Servicios con citas previas</string>
+    <string name="label_list_tasks2">Servicios sin citas previas</string>
+    <string name="label_account">cuenta</string>
+    <string name="label_logout">cerrar sesión</string>
+    <string name="label_welcome">Bienvenido</string>
+    <string name="label_list_vehicles">Vehiculos</string>
+    <string name="label_create_vehicle">Registrar vehiculo</string>
+    <string name="label_start_task">Iniciar servicio</string>
+    <string name="label_finish_task">Terminar servicio</string>
+    <string name="label_description_image_post">Imagen de post</string>
+
+    <string name="hint_email">Correo electrónico</string>
+    <string name="hint_password">Contraseña</string>
+    <string name="hint_user_name">Nombre</string>
+    <string name="hint_user_last_name">Apellido</string>
+
+    <string name="btn_create_account">Crear cuenta</string>
+    <string name="btn_start_session">Iniciar sesión</string>
+    <string name="btn_register">Registrarte</string>
+    <string name="cd_image_post">imagen post</string>
+    <string name="label_app_name">Lava Autos Aguazul</string>
+    <string name="btn_continue">Continuar</string>
+
+    <string name="dialog_create_appointment_exit_title">¿Estás seguro que deseas salir?</string>
+    <string name="dialog_create_appointment_exit_message">Si abandonas el registro, los datos que habías ingresado se perderán.</string>
+    <string name="dialog_create_appointment_exit_positive_btn">Sí, salir</string>
+    <string name="dialog_create_appointment_exit_negative_btn">Continuar registro</string>
+    <string name="dialog_create_appointment_save_title">Reservar cita</string>
+    <string name="dialog_create_appointment_stop_message">Al reservar una cita, se separará un espacio para tu vehículo con los datos seleccionados.</string>
+    <string name="dialog_create_appointment_save_btn">Si, reservar cita</string>
+    <string name="dialog_create_appointment_stop_btn">No, aún no</string>
+
+    <string name="dialog_finish_service_save_title">Finalizar Servicio</string>
+    <string name="dialog_finish_service_stop_message">¿Seguro de finalizar servicio?.</string>
+    <string name="dialog_finish_service_save_btn">Si, finalizar</string>
+    <string name="dialog_finish_service_stop_btn">No, aún no</string>
+
+    <string name="title_activity_account">AccountActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="label_user_information">Información de usuario</string>
+    <string name="label_user_name">Nombre usuario:</string>
+    <string name="label_user_last_name">Apellido usuario:</string>
+    <string name="label_user_email">Correo usuario</string>
+    <string name="label_message_service">Para poder continuar, selecciona una opción, si no hay, puedes agendar hasta mañana</string>
+    <string name="label_select_service">Seleccionar servicio</string>
+    <string name="btn_create_appointment">Reservar cita</string>
+    <string name="label_confirm_information">Confirmar datos</string>
+    <string name="label_car_selected">Vehículo seleccionado:</string>
+    <string name="label_service_selected">Servicio seleccionado:</string>
+    <string name="label_space_selected">Espacio seleccionado:</string>
+    <string name="label_employee_selected">Empleado seleccionado:</string>
+    <string name="label_select_employee">Seleccionar empleado</string>
+    <string name="label_select_space">Seleccionar espacio</string>
+    <string name="label_select_vehicle">Elegir Vehículo</string>
+    <string name="label_line_vehicle">Línea vehículo</string>
+    <string name="label_color">Color</string>
+    <string name="label_type">Tipo</string>
+    <string name="label_mark">Marca</string>
+    <string name="label_plate">Placa</string>
+    <string name="label_select_line">Selecciona línea del vehículo</string>
+    <string name="label_select_colo_vehicle">Selecciona color del vehículo</string>
+    <string name="btn_register_vehicle">Registrar vehículo</string>
+    <string name="hint_plate">Ingrese placa del vehículo</string>
+    <string name="label_register_vehicle">Registro de Vehículo</string>
+    <string name="label_state_appointment">Estado cita</string>
+    <string name="label_date_appointment">Fecha cita</string>
+    <string name="label_date_service">Fecha servicio</string>
+    <string name="label_start_hour_appointment">Hora de inicio</string>
+    <string name="label_hour_service">Hora</string>
+    <string name="label_price_apro">Precio aprox.</string>
+    <string name="label_price">Precio</string>
+    <string name="label_employee_appointment">Empleado</string>
+    <string name="label_plate_vehicle">Placa vehículo</string>
+    <string name="label_vehicle">Vehículo</string>
+    <string name="label_stock">Observaciones</string>
+    <string name="title_appointments">Citas Agendadas</string>
+    <string name="label_service">Servicio</string>
+    <string name="hint_price">Ingrese valor del servicio</string>
+    <string name="label_select_appointment">Selecciona cita</string>
+    <string name="label_description">Observaciones de estado</string>
+    <string name="label_select_tyoe">Selecciona tipo vehículo</string>
+    <string name="btn_register_service">Registrar servicio</string>
+    <string name="label_start_service">Iniciar servicio</string>
+    <string name="message_update_task">Selecciona un servicio para poder continuar, si no hay es porque no hay servicios por finalizar</string>
+    <string name="label_services_to_finish">Servicios para Finalizar</string>
+    <string name="label_scheduled_task">Servicios con cita previa</string>
+    <string name="label_unscheduled_tasks">Servicios sin cita previa</string>
+    <string name="hint_username">Username</string>
+
+</resources>

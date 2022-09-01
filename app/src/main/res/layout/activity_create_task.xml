@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/check_vehicles"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".yard.CreateTaskActivity"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/step_vehicles"
+        android:layout_width="match_parent"
+        android:visibility="visible"
+        android:layout_height="480dp"
+        android:layout_margin="16dp"
+        app:cardCornerRadius="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_12"
+                android:fontFamily="@font/nunito_semi_bold"
+                android:gravity="center"
+                android:textSize="@dimen/text_20"
+                android:text="@string/label_select_appointment"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="130dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/radio_button_parent_appointments"
+                    android:paddingHorizontal="@dimen/common_12">
+
+                </LinearLayout>
+
+            </ScrollView>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_price"
+                app:endIconMode="clear_text"
+                app:startIconDrawable="@drawable/ic_price"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_marginHorizontal="@dimen/common_16"
+                android:layout_marginTop="@dimen/common_32">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:maxLength="@integer/max_length_price"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/common_8"
+                android:layout_marginBottom="@dimen/common_8"
+                android:fontFamily="@font/nunito_semi_bold"
+                android:gravity="center"
+                android:textSize="@dimen/text_20"
+                android:text="@string/label_description"/>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:paddingHorizontal="@dimen/common_8">
+
+                <EditText
+                    android:id="@+id/editTextDescription"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:autofillHints=""
+                    tools:ignore="LabelFor" />
+            </ScrollView>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_init_appointment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_semi_bold"
+        android:textColor="@color/md_blue_grey_50"
+        android:backgroundTint="@color/blue_500"
+        android:layout_marginTop="@dimen/common_8"
+        android:layout_marginHorizontal="@dimen/common_8"
+        android:text="@string/label_start_service"/>
+
+</LinearLayout>

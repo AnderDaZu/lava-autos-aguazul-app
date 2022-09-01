@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1115" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/drawable/ic_account.xml" value="0.144" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/drawable/ic_add.xml" value="0.1115" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/drawable/ic_add_car.xml" value="0.1115" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/drawable/ic_end.xml" value="0.1115" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1115" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1115" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/drawable/ic_schedule.xml" value="0.1115" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/drawable/ic_services.xml" value="0.1115" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/drawable/ic_start.xml" value="0.1115" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/drawable/ic_unscheduled.xml" value="0.1115" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/layout/activity_account.xml" value="0.2" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/layout/activity_create_appointment_user.xml" value="0.2" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/layout/activity_create_task.xml" value="0.2" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/layout/activity_create_unscheduled_task.xml" value="0.1329639889196676" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/layout/activity_create_vehicle.xml" value="0.2" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/layout/activity_employee_home.xml" value="0.2" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/layout/activity_home.xml" value="0.2" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/layout/activity_post.xml" value="0.25" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/layout/activity_register2.xml" value="0.2" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/layout/activity_scheduled_tasks.xml" value="0.2" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/layout/activity_show_appointments.xml" value="0.2" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/layout/activity_show_scheduled_task_employee.xml" value="0.2" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/layout/activity_show_unscheduled_task_employee.xml" value="0.1638888888888889" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/layout/activity_show_vehicles.xml" value="0.2" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/layout/activity_start_app.xml" value="0.2" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/layout/activity_task_employee.xml" value="0.25" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/layout/activity_unscheduled_task.xml" value="0.2" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/layout/activity_update_task.xml" value="0.2" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/layout/activity_user_home.xml" value="0.2" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/layout/activity_yard_home.xml" value="0.2" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/layout/card_view_step_one.xml" value="0.2" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/layout/item_account.xml" value="0.2" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/layout/item_appointment.xml" value="0.2" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/layout/item_check_vehicle.xml" value="0.2" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/layout/item_post.xml" value="0.33" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/layout/item_scheduled_task_employee.xml" value="0.33" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/layout/item_scheduled_task_yard.xml" value="0.33" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/layout/item_show_vehicle.xml" value="0.25" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/layout/item_task_employee.xml" value="0.33" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/layout/item_unscheduled_task_employee.xml" value="0.33" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/layout/item_unscheduled_task_yard.xml" value="0.25" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/layout/item_vehicle.xml" value="0.2" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/ander/AndroidStudioProjects/Projects/LavaAutosAguazul/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
