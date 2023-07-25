@@ -11,7 +11,9 @@ class PostViewHolder(view: View): RecyclerView.ViewHolder(view) {
     private var mBinding = ItemPostBinding.bind(view)
 
     fun bind(post: PostResponse){
-        Picasso.get().load(post.url).into(mBinding.ivPost)
+        val urlPost = "https://lava-autos.anderscode.com/" + post.url
+        Picasso.get().load(urlPost).into(mBinding.ivPost)
+        // Picasso.get().load(post.url).into(mBinding.ivPost)
         mBinding.tvType.text = post.type
         mBinding.tvTitle.text = post.title
         mBinding.tvExtract.text = post.extract

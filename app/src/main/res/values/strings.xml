@@ -1,9 +1,9 @@
 <resources>
-    <string name="app_name">LavAutos Aguazul</string>
+    <string name="app_name">Lava Autos Aguazul App</string>
 
     <string name="required">Obligatorio</string>
 
-    <string name="label_app_name_start">Lava Autos Aguazul</string>
+    <string name="label_app_name_start">Lava Autos Aguazul App</string>
     <string name="label_app_description">El mejor servicio de lava autos!</string>
     <string name="label_email">Correo</string>
     <string name="label_register">Registrarte</string>
@@ -102,8 +102,8 @@
     <string name="label_start_service">Iniciar servicio</string>
     <string name="message_update_task">Selecciona un servicio para poder continuar, si no hay es porque no hay servicios por finalizar</string>
     <string name="label_services_to_finish">Servicios para Finalizar</string>
-    <string name="label_scheduled_task">Servicios con cita previa</string>
-    <string name="label_unscheduled_tasks">Servicios sin cita previa</string>
+    <string name="label_scheduled_task">Ver Servicios con cita previa</string>
+    <string name="label_unscheduled_tasks">Ver Servicios sin cita previa</string>
     <string name="hint_username">Username</string>
 
 </resources>

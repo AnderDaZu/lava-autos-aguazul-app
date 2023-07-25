@@ -2,6 +2,7 @@ package com.anderdadev.lavaautosaguazul
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.RadioButton
 import android.widget.Toast
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -39,7 +40,9 @@ class PostActivity : AppCompatActivity() {
 
     private fun getRetrofit(): Retrofit {
         return Retrofit.Builder()
-            .baseUrl("https://sea-lion-app-ffsmx.ondigitalocean.app/api/v1/")
+            //.baseUrl("https://sea-lion-app-ffsmx.ondigitalocean.app/api/v1/")
+            //.baseUrl("https://sea-lion-app-ou3yg.ondigitalocean.app/api/v1/")
+            .baseUrl("https://lava-autos.anderscode.com/api/v1/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
     }
@@ -52,6 +55,7 @@ class PostActivity : AppCompatActivity() {
             runOnUiThread {
                 if (call.isSuccessful){
                     val postsReturn = services?.posts ?: emptyList()
+                    Log.i("Posts", postsReturn.toString())
                     posts.clear()
                     posts.addAll(postsReturn)
                     adapter.notifyDataSetChanged()

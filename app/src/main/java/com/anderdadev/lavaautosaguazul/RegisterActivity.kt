@@ -107,7 +107,9 @@ class RegisterActivity : AppCompatActivity() {
 //            .setLenient()
 //            .create()
         return Retrofit.Builder()
-            .baseUrl("https://sea-lion-app-ffsmx.ondigitalocean.app/api/")
+            //.baseUrl("https://sea-lion-app-ffsmx.ondigitalocean.app/api/")
+            //.baseUrl("https://sea-lion-app-ou3yg.ondigitalocean.app/api/")
+            .baseUrl("https://lava-autos.anderscode.com/api/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
     }

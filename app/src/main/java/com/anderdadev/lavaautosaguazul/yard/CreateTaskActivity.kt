@@ -137,7 +137,9 @@ class CreateTaskActivity : AppCompatActivity() {
 
     private fun getRetrofit(): Retrofit {
         return Retrofit.Builder()
-            .baseUrl("https://sea-lion-app-ffsmx.ondigitalocean.app/api/")
+            //.baseUrl("https://sea-lion-app-ffsmx.ondigitalocean.app/api/")
+            //.baseUrl("https://sea-lion-app-ou3yg.ondigitalocean.app/api/")
+            .baseUrl("https://lava-autos.anderscode.com/api/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
     }

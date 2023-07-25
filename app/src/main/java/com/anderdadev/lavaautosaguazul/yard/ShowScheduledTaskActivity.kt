@@ -65,7 +65,9 @@ class ShowScheduledTaskActivity : AppCompatActivity() {
 
     private fun getRetrofit(): Retrofit {
         return Retrofit.Builder()
-            .baseUrl("https://sea-lion-app-ffsmx.ondigitalocean.app/api/v1/")
+            //.baseUrl("https://sea-lion-app-ffsmx.ondigitalocean.app/api/v1/")
+            //.baseUrl("https://sea-lion-app-ou3yg.ondigitalocean.app/api/v1/")
+            .baseUrl("https://lava-autos.anderscode.com/api/v1/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
     }

@@ -133,7 +133,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun getRetrofit(): Retrofit {
         return Retrofit.Builder()
-            .baseUrl("https://sea-lion-app-ffsmx.ondigitalocean.app/api/")
+            //.baseUrl("https://sea-lion-app-ffsmx.ondigitalocean.app/api/")
+            //.baseUrl("https://sea-lion-app-ou3yg.ondigitalocean.app/api/")
+            .baseUrl("https://lava-autos.anderscode.com/api/")
 //            .baseUrl("http://prueba1-los-coches.test:8080/api/")
             .addConverterFactory(GsonConverterFactory.create())
             .build()
